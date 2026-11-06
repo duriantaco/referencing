@@ -13,7 +13,6 @@ from referencing._attrs import frozen
 from referencing.typing import URI, Anchor as AnchorType, D, Mapping, Retrieve
 
 EMPTY_UNCRAWLED: HashTrieSet[URI] = HashTrieSet()
-EMPTY_PREVIOUS_RESOLVERS: List[URI] = List()
 
 
 class _Unset(Enum):
